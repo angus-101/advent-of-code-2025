@@ -1,7 +1,7 @@
 import csv
 
 rotations = []
-with open('rotations.csv', newline='') as file: 
+with open('day_1_secret_entrance/rotations.csv', newline='') as file: 
     rotations_csv = csv.reader(file, delimiter=' ')
     for rotation in rotations_csv:
         rotations.append(rotation[0])
