@@ -6,13 +6,6 @@ with open('day_3_lobby/banks.csv', newline='') as file:
     for bank in banks_csv:
         banks.append(bank[0])
 
-# banks = [
-#     '987654321111111',
-#     '811111111111119',
-#     '234234234234278',
-#     '818181911112111'
-# ]
-
 def search_bank(bank):
     for i in range(9, -1, -1):
         for joltage in bank:
